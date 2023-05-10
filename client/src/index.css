@@ -1,0 +1,42 @@
+.MuiListItemText-root {
+  text-align: center;
+}
+.MuiList-root span {
+  font-size: 1em;
+  transition: all 0.4s ease 0s;
+} 
+
+
+.rbc-toolbar-label {
+  font-weight: 600;
+  font-size: 22px;
+}
+.MuiTypography-root {
+  font-size: 20px;
+}
+
+.MuiPagination-ul {
+  justify-content: flex-end;
+}
+.MuiListItem-root:hover {
+  background-color: transparent !important;
+}
+
+.cancelp {
+  width: 45%;
+  background-color: gray;
+  margin-top: 0;
+  margin-bottom: 5%;
+  text-align: center;
+  color: white;
+}
+
+.cancelp:hover { 
+  transform: scale(1.05);
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .react-calendar {
+    font-size: 0.8em;
+  }
+}

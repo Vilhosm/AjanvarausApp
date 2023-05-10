@@ -1,0 +1,32 @@
+.admin-bookings-container label {
+  font-size: 1.5rem;
+  color: black;
+  display: block;
+}
+
+.admin-bookings-container select,
+.admin-bookings-container input[type='text'],
+.admin-bookings-container input[type='password'] {
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.admin-bookings-container input:hover {
+  cursor: pointer;
+}
+
+.admin-bookings-container button[type='submit'] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.admin-bookings-container button[type='submit']:hover {
+  transform: scale(1.02);
+}
